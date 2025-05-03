@@ -1,4 +1,4 @@
-package com.rituraj.ecommerceWebApp;
+package com.rituraj.ecommerceWebApp.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -9,13 +9,13 @@ public class HomeController {
     @RequestMapping("/")
     @ResponseBody
     public String greet() {
-        System.out.println("Hello, welcome to the E-commerce Web Application!");
+//        System.out.println("Hello, welcome to the E-commerce Web Application!");
         return "Hello, welcome to the E-commerce Web Application!";
     }
     @RequestMapping("/about")
     @ResponseBody
     public String about() {
-        System.out.println("This is the about page.");
+//        System.out.println("This is the about page.");
         return "This is the about page.";
     }
 }
